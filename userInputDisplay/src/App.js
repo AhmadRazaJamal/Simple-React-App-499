@@ -39,7 +39,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" width="250" height="250"/>
         <Grid container xs={12}>
         <Grid item xs={12} style={{marginRight: 10, marginLeft: 10}}>
-          <Typography variant='h1' noWrap={true}>{text}</Typography>
+          {/* <Typography variant='h1' noWrap={true}>{text}</Typography> */}
         </Grid>
         <Grid className={classes.textFieldContainer} item xs={12}>
         <TextField 
